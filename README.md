@@ -126,8 +126,8 @@ This project is a geo search application built with Next.js. It allows users to 
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd geo-search-application
+   git clone https://github.com/lawrenceokeeffe/medicspot.git
+   cd medicspot
    ```
 
 2. **Install dependencies:**
