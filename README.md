@@ -96,3 +96,74 @@ You'll get bonus points if you
 - Sort the results by the closest name match
 
 Good luck!
+
+------------
+
+# Geo Search Application
+
+This project is a geo search application built with Next.js. It allows users to search for UK locations based on a fuzzy match query. The application includes an API server for querying location data stored in a SQLite database and a React-based frontend for searching and displaying results.
+
+## Features
+
+- Fuzzy search for UK locations starting with a user-provided string.
+- Results include location names and their coordinates (latitude, longitude).
+- A SQLite database for storing location data.
+- Dockerized for easy deployment.
+- Unit tests for API and UI components.
+
+---
+
+## Installation and Setup
+
+### Prerequisites
+
+- **Node.js** (v18 or higher) and **npm** installed.
+- **Docker** and **Docker Compose** installed.
+
+---
+
+### Running Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd geo-search-application
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up the database:**
+   Ensure the SQLite database file (`src/data/locations.db`) exists. Use the `GB.txt` data file to populate the database if necessary.
+
+4. **Run the application:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Access the application:**
+   Open your browser and navigate to `http://localhost:3000`.
+
+---
+
+
+## Running Tests
+
+1. **Run tests locally:**
+   Make sure dependencies are installed and run:
+   ```bash
+   npm run test
+   ```
+
+---
+
+
+## Notes
+
+- Ensure that the database path is correctly set when running the application in different environments.
+
+
+
+
