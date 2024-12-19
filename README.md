@@ -108,7 +108,6 @@ This project is a geo search application built with Next.js. It allows users to 
 - Fuzzy search for UK locations starting with a user-provided string.
 - Results include location names and their coordinates (latitude, longitude).
 - A SQLite database for storing location data.
-- Dockerized for easy deployment.
 - Unit tests for API and UI components.
 
 ---
@@ -118,7 +117,6 @@ This project is a geo search application built with Next.js. It allows users to 
 ### Prerequisites
 
 - **Node.js** (v18 or higher) and **npm** installed.
-- **Docker** and **Docker Compose** installed.
 
 ---
 
