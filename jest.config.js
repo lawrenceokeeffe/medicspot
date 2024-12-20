@@ -8,9 +8,9 @@ module.exports = {
     transform: {
       "^.+\\.(ts|tsx)$": "ts-jest", // Transform TypeScript files
     },
-    moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
+     moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
     transformIgnorePatterns: [
-      "/node_modules/", // Ensure jest-dom is transformed
+      "/node_modules/(?!@testing-library/jest-dom)", // Ensure jest-dom is transformed
     ],
   };
   
