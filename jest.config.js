@@ -1,6 +1,11 @@
 module.exports = {
     preset: "ts-jest", // Use ts-jest for TypeScript
     testEnvironment: "jsdom", // Set test environment to jsdom
+    globals: {
+        'ts-jest': {
+          tsconfig: 'tsconfig.jest.json', // Use the Jest-specific tsconfig
+        },
+      },
     moduleNameMapper: {
       "^@/(.*)$": "<rootDir>/src/$1",
     },
